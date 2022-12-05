@@ -36,3 +36,13 @@ nav a {
 nav a:hover {
 	color: hsl(35, 77%, 62%);	
 }
+/* CSS conteudo principal*/
+
+.imagem__principal {
+    width: 600px;
+    padding-top: 40px;
+}
+
+.container__cards h2 {
+    font-size: 42px;
+}
