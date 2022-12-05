@@ -10,6 +10,9 @@
     border-radius: 6px;
 }
 
+h1 {
+    text-align: center;
+}
 
 nav li {
 	display: inline;
@@ -25,6 +28,5 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
-	text-decoration: underline;
+	color: hsl(35, 77%, 62%);	
 }
