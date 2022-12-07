@@ -51,3 +51,20 @@ nav a:hover {
 .card__primeira__secao p {
 	font-size: 15px;
 }
+
+.container2__card {
+	border-radius: 12px;
+    width: 250px;
+    height: 400px;
+    padding: 25px;
+    margin: 0 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container2__card h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: hsl(35, 77%, 62%);
+	margin-bottom: 20px;
+}
