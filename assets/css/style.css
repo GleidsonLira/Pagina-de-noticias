@@ -48,8 +48,10 @@ nav a:hover {
 	font-weight: bold;
 }
 
-.card__primeira__secao p {
+.texto__primeira__secao {
 	font-size: 15px;
+	color: hsl(233, 8%, 79%);
+	line-height: 20px;
 }
 
 .enviar {
@@ -61,7 +63,6 @@ nav a:hover {
 	font-size: 18px;
 	border: none;
 	border-radius: 2px;
-	transition: 1s all;
 	cursor: pointer;
 }
 
@@ -100,5 +101,22 @@ nav a:hover {
 
 .hr {
 	border: 0;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid hsl(233, 8%, 79%);
+}
+
+.container__imagem h3 {
+	font-size: 26px;
+	font-weight: bold;
+	color: hsl(233, 8%, 79%);
+}
+
+.container__imagem h4 {
+	font-size: 17px;
+	font-weight: bold;
+	color: hsl(240, 100%, 5%);
+}
+
+.container__imagem p {
+	font-size: 15px;
+	color: hsl(233, 8%, 79%);
 }
