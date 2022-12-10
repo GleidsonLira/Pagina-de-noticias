@@ -109,23 +109,23 @@ nav a:hover {
 	border-top: 1px solid hsl(233, 8%, 79%);
 }
 
-.container__imagem {
+.second__section {
 	display: flex;
 }
 
-.container__imagem h3 {
+.second__section h3 {
 	font-size: 26px;
 	font-weight: bold;
 	color: hsl(233, 8%, 79%);
 }
 
-.container__imagem h4 {
+.second__section h4 {
 	font-size: 17px;
 	font-weight: bold;
 	color: hsl(240, 100%, 5%);
 }
 
-.container__imagem p {
+.second__section p {
 	font-size: 15px;
 	color: hsl(233, 8%, 79%);
 }
