@@ -25,35 +25,28 @@ a {
     border-radius: 6px;
 }
 
-.logo {
-	padding-bottom: 10px;
-	width: 940px;
-	margin: 0 auto;
-}
-
 nav {
-	position: absolute;
-	top: 70px;
-	right: 10%;
-}
-
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
+	text-decoration: none;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
 nav a {
-	text-transform: uppercase;
-	color: hsl(228, 45%, 44%);
-	font-weight: bold;
-	font-size: 18px;
 	text-decoration: none;
+	font-size: 20px;
+	margin-right: 20px;
+	color: hsl(236, 13%, 42%);
 }
 
 nav a:hover {
 	color: hsl(35, 77%, 62%);	
 }
+
+nav a:last-child{
+    margin-right: 0px;
+}
+
 /* CSS conteudo principal*/
 
 .imagem__principal {
