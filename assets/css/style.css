@@ -16,10 +16,15 @@ a {
 
 .container__all {
 	max-width: 1440px;
-    margin: 20px auto;
+    margin: auto;
 	min-height: 100vh;
 	font-weight: bold;
     padding: 40px 200px;       
+}
+
+.container__all .link {
+	text-align: right;
+	padding-bottom: 20px;
 }
 
 nav {
@@ -298,6 +303,12 @@ nav a:last-child{
         margin-right: 0;
         margin-bottom: 30px;
     }
+
+	.popular h4 {
+        margin-bottom: 5px 0;
+    }
+
+
 
 
 }
