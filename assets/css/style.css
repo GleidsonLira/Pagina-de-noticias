@@ -83,3 +83,35 @@ nav a:last-child{
 	grid-area: intro;
 	display: flex;
 }
+
+.intro h1 {
+	flex: 1;
+	margin-right: 30px;
+	font-weight: 800;
+	font-size: 30px;
+	color: hsl(240, 100%, 5%);
+}
+
+.intro .description {
+	flex: 2;
+	font-size: 15px;
+	color: hsl(240, 100%, 5%);
+}
+
+.intro .description button {
+	margin-top: 20px;
+	color: hsl(36, 100%, 99%);
+	background-color: hsl(5, 85%, 63%);
+	border: none;
+	padding: 9px 12px;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.intro .description button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
