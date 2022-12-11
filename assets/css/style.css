@@ -70,3 +70,16 @@ nav a:last-child{
     "hero__img hero__img hero__img news"
     "intro intro intro news";
 }
+
+.hero__img {
+	grid-area: hero__img;
+}
+
+.hero__img img {
+	width: 100%;
+}
+
+.intro {
+	grid-area: intro;
+	display: flex;
+}
