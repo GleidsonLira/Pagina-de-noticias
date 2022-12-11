@@ -262,5 +262,42 @@ nav a:last-child{
         margin-bottom: 30px;
     }
 
+	.first__section {
+        grid-template-areas:
+        "hero-img"
+        "intro"
+        "news";
+    }
+
+	.imagem__principal {
+        display: none;
+    }
+
+	.imagem__principal__mobile {
+        display: block;
+    }
+
+	.intro {
+        flex-direction: column;
+    }
+
+	.intro h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+	.intro .description {
+        line-height: 1.6;
+    }
+
+	.second__section {
+        flex-direction: column;
+    }
+
+	.popular {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
 
 }
