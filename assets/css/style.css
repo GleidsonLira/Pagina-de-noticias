@@ -18,7 +18,7 @@ a {
 	max-width: 1440px;
     margin: 20px auto;
 	min-height: 100vh;
-	font-weight: 400;
+	font-weight: bold;
     padding: 40px 200px;       
 }
 
@@ -87,7 +87,7 @@ nav a:last-child{
 .intro h1 {
 	flex: 1;
 	margin-right: 30px;
-	font-weight: 800;
+	font-weight: bold;
 	font-size: 30px;
 	color: hsl(240, 100%, 5%);
 }
@@ -107,7 +107,7 @@ nav a:last-child{
 	text-transform: uppercase;
 	font-size: 10px;
 	letter-spacing: 2px;
-	font-weight: 700;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -172,7 +172,7 @@ nav a:last-child{
 }
 
 .popular img {
-	height: 110px;
+	height: 140px;
 	margin-right: 15px;
 }
 
@@ -185,6 +185,82 @@ nav a:last-child{
 .popular .content h3 {
 	display: inline-block;
 	font-size: 25px;
-	font-weight: 700;
+	font-weight: bold;
 	color: hsl(233, 8%, 79%);
+}
+
+.popular .content h4 {
+	cursor: pointer;
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+.popular .content h4:hover {
+	color: hsl(5, 85%, 63%);
+}
+
+.popular .content p {
+	font-size: 15px;
+	color: hsl(236, 13%, 42%);
+	line-height: 1.5;
+}
+
+/* CSS mobile*/
+
+@media screen and (max-width: 376px){
+    .container__all {
+        padding: 30px 20px;
+    }
+
+	nav .link {
+        position: fixed;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding-top: 200px;
+        padding-left: 30px;
+       top: 0;
+       right: -200px;
+       height: 100vh;
+       transition: all 650ms ease-in-out;
+       z-index: 99;
+    }
+
+	.backdrop .active {
+        display: block;
+    }
+
+	nav {
+        position: sticky;
+    }
+
+	nav .links .active{
+        right: 0;
+    }
+
+	.menu__open {
+        display: inline-block;
+        transition: all 650ms ease-in-out;
+    }
+
+	.menu__open .active {
+        display: none;
+    }
+
+	.menu__close {
+        display: none;
+        transition: all 650ms ease-in-out;
+    }
+
+	.menu__close .active {
+        display: inline-block;
+        z-index: 100;
+    }
+
+	nav .links a {
+        margin-bottom: 30px;
+    }
+
+
 }
