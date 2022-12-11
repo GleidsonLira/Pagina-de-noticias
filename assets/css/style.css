@@ -156,3 +156,35 @@ nav a:last-child{
 	font-size: 15px;
 	color: hsl(233, 8%, 79%);
 }
+
+.second__section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.popular {
+	display: flex;
+	margin-right: 50px;
+}
+
+.popular:last-child {
+	margin: 0;
+}
+
+.popular img {
+	height: 110px;
+	margin-right: 15px;
+}
+
+.popular .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.popular .content h3 {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 700;
+	color: hsl(233, 8%, 79%);
+}
