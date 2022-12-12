@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-*,
-*::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;;
+body {    
+    font-family: 'Inter', sans-serif;
 }
 
 a {
 	font-size: 50px;
 }
-
 
 .container__all {
 	max-width: 1440px;
